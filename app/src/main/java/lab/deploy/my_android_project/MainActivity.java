@@ -98,9 +98,8 @@ public class MainActivity extends AppCompatActivity {
                 .setAutoCancel(true)         //bam vao thi close Thong bao
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT); // Đặt mức ưu tiên
 
-//        // Hiển thị thông báo
+        // Hiển thị thông báo
         notificationManager.notify(1, builder.build());
     }
-
 
 }
